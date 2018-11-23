@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompositionBoard" customModule="MEReuseUI" customModuleProvider="target">
+            <connections>
+                <outlet property="leftView" destination="WlI-lD-jS6" id="d0l-4T-hXk"/>
+                <outlet property="rightView" destination="ASK-i2-MSv" id="tqa-Ce-hip"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WlI-lD-jS6" customClass="BoardView" customModule="MEReuseUI" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="172.5" height="108"/>
+                    <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nibByString" value="RightBoard"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASK-i2-MSv" customClass="BoardView" customModule="MEReuseUI" customModuleProvider="target">
+                    <rect key="frame" x="202.5" y="0.0" width="172.5" height="108"/>
+                    <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nibByString" value="RightBoard"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ASK-i2-MSv" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="3XH-0W-xnP"/>
+                <constraint firstItem="ASK-i2-MSv" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="AYk-YF-SEe"/>
+                <constraint firstItem="WlI-lD-jS6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="CuQ-pe-DgM"/>
+                <constraint firstItem="WlI-lD-jS6" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Doi-qb-Eqk"/>
+                <constraint firstItem="ASK-i2-MSv" firstAttribute="leading" secondItem="WlI-lD-jS6" secondAttribute="trailing" constant="30" id="GrM-l8-81M"/>
+                <constraint firstItem="ASK-i2-MSv" firstAttribute="width" secondItem="WlI-lD-jS6" secondAttribute="width" id="hLY-YW-amL"/>
+                <constraint firstItem="ASK-i2-MSv" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="qOH-C2-8sn"/>
+                <constraint firstItem="WlI-lD-jS6" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="zK6-oi-BtJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="-98.050974512743636"/>
+        </view>
+    </objects>
+</document>

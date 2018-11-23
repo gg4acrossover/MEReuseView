@@ -13,6 +13,15 @@
 		DD6D0E7321A3B83700B134F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E7221A3B83700B134F3 /* Assets.xcassets */; };
 		DD6D0E7621A3B83700B134F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E7421A3B83700B134F3 /* LaunchScreen.storyboard */; };
 		DD6D0E8121A3B83700B134F3 /* MEReuseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D0E8021A3B83700B134F3 /* MEReuseUITests.swift */; };
+		DD6D0E8C21A3B90B00B134F3 /* LeftBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E8B21A3B90B00B134F3 /* LeftBoard.xib */; };
+		DD6D0E8F21A3B99300B134F3 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E8D21A3B99200B134F3 /* girl.png */; };
+		DD6D0E9021A3B99300B134F3 /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E8E21A3B99300B134F3 /* wizard.png */; };
+		DD6D0E9321A3BBB700B134F3 /* RightBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E9221A3BBB700B134F3 /* RightBoard.xib */; };
+		DD6D0E9521A3BC9C00B134F3 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D0E9421A3BC9C00B134F3 /* BoardView.swift */; };
+		DD6D0E9721A3C66600B134F3 /* CompositionBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D0E9621A3C66600B134F3 /* CompositionBoard.swift */; };
+		DD6D0E9921A3E9DF00B134F3 /* CompositionBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E9821A3E9DF00B134F3 /* CompositionBoard.xib */; };
+		DD6D0EA021A7AADF00B134F3 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D0E9E21A7AADF00B134F3 /* AvatarView.swift */; };
+		DD6D0EA121A7AADF00B134F3 /* AvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6D0E9F21A7AADF00B134F3 /* AvatarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		DD6D0E7C21A3B83700B134F3 /* MEReuseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEReuseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D0E8021A3B83700B134F3 /* MEReuseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEReuseUITests.swift; sourceTree = "<group>"; };
 		DD6D0E8221A3B83700B134F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6D0E8B21A3B90B00B134F3 /* LeftBoard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftBoard.xib; sourceTree = "<group>"; };
+		DD6D0E8D21A3B99200B134F3 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		DD6D0E8E21A3B99300B134F3 /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard.png; sourceTree = "<group>"; };
+		DD6D0E9221A3BBB700B134F3 /* RightBoard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightBoard.xib; sourceTree = "<group>"; };
+		DD6D0E9421A3BC9C00B134F3 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		DD6D0E9621A3C66600B134F3 /* CompositionBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionBoard.swift; sourceTree = "<group>"; };
+		DD6D0E9821A3E9DF00B134F3 /* CompositionBoard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompositionBoard.xib; sourceTree = "<group>"; };
+		DD6D0E9E21A7AADF00B134F3 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		DD6D0E9F21A7AADF00B134F3 /* AvatarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +98,14 @@
 				DD6D0E6B21A3B83500B134F3 /* AppDelegate.swift */,
 				DD6D0E6D21A3B83500B134F3 /* ViewController.swift */,
 				DD6D0E6F21A3B83500B134F3 /* Main.storyboard */,
+				DD6D0E9D21A4047100B134F3 /* Resource */,
 				DD6D0E7221A3B83700B134F3 /* Assets.xcassets */,
 				DD6D0E7421A3B83700B134F3 /* LaunchScreen.storyboard */,
 				DD6D0E7721A3B83700B134F3 /* Info.plist */,
+				DD6D0E9B21A3EDC500B134F3 /* BoardView */,
+				DD6D0E9C21A3EDD100B134F3 /* CompositionBoard */,
+				DD6D0E9E21A7AADF00B134F3 /* AvatarView.swift */,
+				DD6D0E9F21A7AADF00B134F3 /* AvatarView.xib */,
 			);
 			path = MEReuseUI;
 			sourceTree = "<group>";
@@ -94,6 +117,34 @@
 				DD6D0E8221A3B83700B134F3 /* Info.plist */,
 			);
 			path = MEReuseUITests;
+			sourceTree = "<group>";
+		};
+		DD6D0E9B21A3EDC500B134F3 /* BoardView */ = {
+			isa = PBXGroup;
+			children = (
+				DD6D0E8B21A3B90B00B134F3 /* LeftBoard.xib */,
+				DD6D0E9221A3BBB700B134F3 /* RightBoard.xib */,
+				DD6D0E9421A3BC9C00B134F3 /* BoardView.swift */,
+			);
+			path = BoardView;
+			sourceTree = "<group>";
+		};
+		DD6D0E9C21A3EDD100B134F3 /* CompositionBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DD6D0E9621A3C66600B134F3 /* CompositionBoard.swift */,
+				DD6D0E9821A3E9DF00B134F3 /* CompositionBoard.xib */,
+			);
+			path = CompositionBoard;
+			sourceTree = "<group>";
+		};
+		DD6D0E9D21A4047100B134F3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DD6D0E8D21A3B99200B134F3 /* girl.png */,
+				DD6D0E8E21A3B99300B134F3 /* wizard.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +228,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6D0EA121A7AADF00B134F3 /* AvatarView.xib in Resources */,
+				DD6D0E9021A3B99300B134F3 /* wizard.png in Resources */,
+				DD6D0E9921A3E9DF00B134F3 /* CompositionBoard.xib in Resources */,
+				DD6D0E9321A3BBB700B134F3 /* RightBoard.xib in Resources */,
 				DD6D0E7621A3B83700B134F3 /* LaunchScreen.storyboard in Resources */,
+				DD6D0E8F21A3B99300B134F3 /* girl.png in Resources */,
+				DD6D0E8C21A3B90B00B134F3 /* LeftBoard.xib in Resources */,
 				DD6D0E7321A3B83700B134F3 /* Assets.xcassets in Resources */,
 				DD6D0E7121A3B83500B134F3 /* Main.storyboard in Resources */,
 			);
@@ -197,7 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6D0E9521A3BC9C00B134F3 /* BoardView.swift in Sources */,
+				DD6D0E9721A3C66600B134F3 /* CompositionBoard.swift in Sources */,
 				DD6D0E6E21A3B83500B134F3 /* ViewController.swift in Sources */,
+				DD6D0EA021A7AADF00B134F3 /* AvatarView.swift in Sources */,
 				DD6D0E6C21A3B83500B134F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
